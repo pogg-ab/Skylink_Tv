@@ -1,0 +1,62 @@
+name: skylink_tv
+description: A new Flutter project.
+
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Provider package for state management
+  provider: ^6.0.0
+
+  # HTTP package for making API calls
+  http: ^0.13.3
+
+  # Cached network image for optimized image loading
+  cached_network_image: ^3.1.0
+
+  # Video player package for handling video content
+  video_player: ^2.2.19
+
+  # Flutter SVG for rendering SVG images
+  flutter_svg: ^1.0.3
+
+  # Carousel slider for creating image/video carousels
+  carousel_slider: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # Asset declarations for images and fonts
+  assets:
+    - assets/images/img1.jpeg
+    - assets/images/img2.jpeg
+    - assets/images/img3.jpeg
+    - assets/images/img4.jpeg
+    - assets/images/skylink_img.jpg
+    
+
+  # Custom fonts (if applicable)
+  #fonts:
+   # - family: MyCustomFont
+     # fonts:
+       # - asset: assets/fonts/MyCustomFont-Regular.ttf
+        ##  weight: 700
+
+  # Define additional fonts or images here if needed
